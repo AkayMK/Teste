@@ -887,6 +887,14 @@ video {
   padding: 0.25rem;
 }
 
+.p-10{
+  padding: 2.5rem;
+}
+
+.p-8{
+  padding: 2rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1110,6 +1118,10 @@ video {
 
   .md\:p-2{
     padding: 0.5rem;
+  }
+
+  .md\:p-8{
+    padding: 2rem;
   }
 
   .md\:px-40{
