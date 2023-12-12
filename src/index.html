@@ -13,15 +13,16 @@
     <!-- header -->
 
     <header class="bg-escuro-200 ">
-        <div class="flex justify-between p-4 md:p-8 ">
-            <div class="w-20 text-center text-cafe-100">
-                <a href="#" class="text-4xl mx-10 font-semibold">Kerl</a>
+        <div class="md:flex md:p-4">
+            <div class="text-cafe-300 p-4">
+                <a href="#" class="text-4xl font-semibold">Kerl</a>
             </div>
 
-            <div class="w-6/12 flex space-x-8 justify-end mr-8 py-2.5 text-cafe-100">
+            <div class="bg-escuro-100 justify-center py-2  space-x-10
+            md:bg-transparent md:w-11/12 flex md:space-x-8 md:justify-end md:mr-8 md:pt-6 text-claro-300 ">
                 <a href="#" class="flex gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                        class="w-7 h-7 hover:text-claro-300 md:hover:text-cafe-100">
+                        class="w-6 h-6 hover:text-cafe-100 md:hidden">
                         <path fill-rule="evenodd"
                             d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
                             clip-rule="evenodd" />
@@ -31,27 +32,36 @@
                         Entre ou cadastre-se</p>
                 </a>
 
-                <a href="#" class="text-xl text-cafe-100 hover:text-claro-300">
-                    <svg xmlns="http://www.w3.org/200/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7">
+                <a href="#" class="text-xl hover:text-cafe-100">
+                    <svg xmlns="http://www.w3.org/200/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd"
                             d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
                             clip-rule="evenodd" />
                     </svg>
                 </a>
 
-                <button class="md:hidden hover:text-claro-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7 ">
+                <button class="md:hidden hover:text-cafe-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path d="M8.25 10.875a2.625 2.625 0 115.25 0 2.625 2.625 0 01-5.25 0z" />
                         <path fill-rule="evenodd"
                             d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.125 4.5a4.125 4.125 0 102.338 7.524l2.007 2.006a.75.75 0 101.06-1.06l-2.006-2.007a4.125 4.125 0 00-3.399-6.463z"
                             clip-rule="evenodd" />
                     </svg>
                 </button>
+
+                <button class="md:hidden hover:text-cafe-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+
+                </button>
             </div>
         </div>
 
-        <div class="flex flex-col md:flex-row bg-escuro-100">
-            <div class="w-screen p-2.5">
+        <div class="bg-escuro-100 h-16 w-full justify-center hidden md:flex">
+            <div class="p-2.5">
                 <ul class="mx-8 md:mx-20 md:py-2 flex gap-4 text-claro-100 font-mono text-lg">
                     <li><a class="hover:text-claro-300" href="#">Tênis</a></li>
                     <li><a class="hover:text-claro-300" href="#">Sandálias</a></li>
@@ -62,8 +72,8 @@
 
             <!-- Search -->
 
-            <div class="my-4 mx-auto hidden md:inline ">
-                <div class="flex mr-16 bg-claro-300 rounded-full text-cafe-300">
+            <div class="my-4">
+                <div class="flex bg-claro-300 rounded-full text-cafe-300">
                     <input class="bg-transparent placeholder-cafe-300 tracking-wider focus:outline-none mx-3 my-1"
                         type="search" name="Pesquisa" id="Search" placeholder="Pesquisar..."></input>
                     <label class="" for="Search">
@@ -105,8 +115,8 @@
                     href="#">Comprar</a>
             </div>
         </div>
-
     </main>
+
 
     <!-- /main -->
 </body>
