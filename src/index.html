@@ -8,47 +8,51 @@
     <title>Tailwind CSS</title>
 </head>
 
-<body class="bg-claro-100 font-kalnia ">
+<body class="bg-claro-100 font-kalnia">
+
     <!-- header -->
 
     <header class="bg-escuro-200 ">
         <div class="flex justify-between p-4">
-            <div class="w-20 text-center text-cafe-300">
-                <h1 class="text-4xl mx-10 font-semibold py-1">Kerl</h1>
+            <div class="w-20 text-center text-cafe-100">
+                <a href="#" class="text-4xl mx-10 font-semibold">Kerl</a>
             </div>
 
-            <div class="w-6/12 flex space-x-8 justify-end mr-8">
-                <div class="py-2.5 text-cafe-100 ">
-                    <button class="flex gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                            <path fill-rule="evenodd"
-                                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                clip-rule="evenodd" />
-                        </svg>
-                        <p
-                            class=" font-semibold text-xl hidden md:inline hover:underline  font-comforta text-claro-300 ">
-                            Entre
-                            ou cadastre-se
-                        </p>
-                    </button>
+            <div class="w-6/12 flex space-x-8 justify-end mr-8 py-2.5 text-cafe-100">
+                <a href="#" class="flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="w-7 h-7 hover:text-claro-300 md:hover:text-cafe-100">
+                        <path fill-rule="evenodd"
+                            d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                            clip-rule="evenodd" />
+                    </svg>
 
-                </div>
+                    <p class="font-semibold text-xl hidden md:inline hover:underline  font-comforta text-claro-300">
+                        Entre ou cadastre-se</p>
+                </a>
 
+                <a href="#" class="text-xl text-cafe-100 hover:text-claro-300">
+                    <svg xmlns="http://www.w3.org/200/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7">
+                        <path fill-rule="evenodd"
+                            d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
 
-                <div class="text-cafe-100 py-2.5 hover:text-claro-300">
-                    <button class="text-xl ">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                            <path fill-rule="evenodd"
-                                d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </button>
-                </div>
+                <button class="md:hidden hover:text-claro-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7 ">
+                        <path d="M8.25 10.875a2.625 2.625 0 115.25 0 2.625 2.625 0 01-5.25 0z" />
+                        <path fill-rule="evenodd"
+                            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.125 4.5a4.125 4.125 0 102.338 7.524l2.007 2.006a.75.75 0 101.06-1.06l-2.006-2.007a4.125 4.125 0 00-3.399-6.463z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row justify-between shadow-2xl bg-escuro-100">
+
+        <div class="flex flex-col md:flex-row bg-escuro-100">
             <div class="w-screen p-2.5">
-                <ul class="mx-20 py-2 flex gap-4 text-claro-100 font-comforta font-semibold text-xl">
+                <ul class="mx-8 md:mx-20 md:py-2 flex gap-4 text-claro-100 font-mono text-lg">
                     <li><a class="hover:text-claro-300" href="#">Tênis</a></li>
                     <li><a class="hover:text-claro-300" href="#">Sandálias</a></li>
                     <li><a class="hover:text-claro-300" href="#">Botas</a></li>
@@ -58,10 +62,10 @@
 
             <!-- Search -->
 
-            <div class="m-3 mx-auto">
+            <div class="my-4 mx-auto hidden md:inline ">
                 <div class="flex mr-16 bg-claro-300 rounded-full text-cafe-300">
-                    <input class="bg-transparent placeholder-cafe-300 focus:outline-none mx-3 my-1" type="search"
-                        name="Pesquisa" id="Search" placeholder="Pesquisar..."></input>
+                    <input class="bg-transparent placeholder-cafe-300 tracking-wider focus:outline-none mx-3 my-1"
+                        type="search" name="Pesquisa" id="Search" placeholder="Pesquisar..."></input>
                     <label class="" for="Search">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="w-6 h-6 m-1">
@@ -74,31 +78,40 @@
 
                 </div>
             </div>
+
+            <!-- /Search -->
         </div>
     </header>
 
     <!-- /header -->
 
     <!-- main -->
-    <main class="">
-        <div class="bg-[url('../img/mulher-sapato22.jpg')] h-[38rem] bg-cover bg-center px-40 py-20">
-            <div class="grid flex justify-center bg-cafe-300/90 ">
-                <div class="flex space-x-8 mt-32 text-center items-center text-5xl text-gray-200">
-                    <p class="">Leve 2 = <br> <strong class="text-8xl">15</strong>% <span class="text-6xl">OFF</span>
+    <main>
+        <div
+            class="bg-[url('../img/mulher-costa2.jpg')] bg-bottom h-[18rem] md:h-[38rem] bg-cover md:bg-bottom md:px-40 md:py-20">
+            <div class="grid flex justify-center h-[18rem] md:h-[28rem] bg-blue-200/30 ">
+                <div
+                    class="flex flex-col md:flex-row mt-10 md:mt-32 text-center items-center text-2xl md:text-5xl gap-4">
+                    <p>Leve 2 = <br> <strong class="text-5xl md:text-8xl text-claro-300">15</strong><span
+                            class="text-claro-300">%
+                            OFF</span>
                     </p>
-                    <p class="text-7xl font-thin">|</p>
-                    <p class="">Leve 3 ou + = <br> <strong class="text-8xl">25</strong>% <span
-                            class="text-6xl">OFF</span></p>
-
+                    <p class="hidden md:inline text-9xl font-semibold">|</p>
+                    <p>Leve 3 ou + = <br> <strong class="text-5xl md:text-8xl text-claro-300">25</strong><span
+                            class="text-claro-300">% OFF</span></p>
                 </div>
-                <a class="bg-escuro-100 w-40 p-2 rounded-full mt-8 mb-20 mx-auto text-2xl text-center text-gray-200 hover:text-cafe-100"
+                <a class="bg-escuro-100 w-28 mb-8 mt-3 md:w-40 p-2 rounded-full md:mb-28 md:mt-8 mx-auto text-lg md:text-2xl text-center text-claro-300 hover:text-cafe-100"
                     href="#">Comprar</a>
             </div>
         </div>
     </main>
-    <br><br><br><br><br>
-    <br><br><br><br><br>
-    <br><br><br><br><br>
+
+    <section>
+        
+    </section>
+    <br><br>
+    <br><br>
+    <br><br>
 
     <!-- /main -->
 
