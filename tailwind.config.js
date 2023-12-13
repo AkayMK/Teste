@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    
+
     extend: {
 
       colors: {
@@ -15,6 +15,7 @@ module.exports = {
         escuro: {
           100: '#24222e',
           200: '#1F1D27',
+          300: '#111017',
         },
         claro: {
           100: '#F5F5F5',
