@@ -701,6 +701,11 @@ video {
   border-color: rgb(254 249 195 / var(--tw-border-opacity));
 }
 
+.border-escuro-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(31 29 39 / var(--tw-border-opacity));
+}
+
 .bg-claro-300{
   --tw-bg-opacity: 1;
   background-color: rgb(224 219 210 / var(--tw-bg-opacity));
@@ -731,6 +736,10 @@ video {
 
 .bg-\[url\(\'\.\.\/img\/homem-sapato2\.jpg\'\)\]{
   background-image: url('../img/homem-sapato2.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/homem-sapato3\.jpg\'\)\]{
+  background-image: url('../img/homem-sapato3.jpg');
 }
 
 .bg-cover{
@@ -1033,6 +1042,14 @@ video {
 
   .md\:bg-\[url\(\'\.\.\/img\/mulher-costa2\.jpg\'\)\]{
     background-image: url('../img/mulher-costa2.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/img\/mulher-costa3\.jpg\'\)\]{
+    background-image: url('../img/mulher-costa3.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/img\/mulher-costa\.jpg\'\)\]{
+    background-image: url('../img/mulher-costa.jpg');
   }
 
   .md\:bg-bottom{
