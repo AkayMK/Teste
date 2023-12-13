@@ -711,6 +711,10 @@ video {
   background-image: url('../img/homem-sapato.jpg');
 }
 
+.bg-\[url\(\'\.\.\/img\/homem-sapato2\.jpg\'\)\]{
+  background-image: url('../img/homem-sapato2.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
