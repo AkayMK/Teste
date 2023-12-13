@@ -666,6 +666,10 @@ video {
   overflow-x: clip;
 }
 
+.overflow-x-scroll{
+  overflow-x: scroll;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
